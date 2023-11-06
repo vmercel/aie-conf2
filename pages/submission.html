@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Conference Web App</title>
+  <style>
+
+    
+
+
+@import url(https://fonts.googleapis.com/css?family=Exo:100);
+* {margin: 0; padding: 0; border: 0 none;}
+html, body {height: 100%; width: 100%; font-size: 1rem; font-family: 'Exo', sans-serif; font-weight: 100;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.cont-slider {
+  position: relative;
+  height: 100vh;
+  max-height: 100vh;
+  width: auto;
+  min-width: 100vw;
+  margin: 0 auto;
+  overflow: hidden;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  background-image: url(https://th.bing.com/th/id/R.4f232eb9860d3496785dec369a9bb7be?rik=pfQJBJ6pVDAQrw&pid=ImgRaw&r=0);
+}
+
+.slider {
+  animation: sliding 25s ease-out 0s backwards infinite;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 500%;
+  height: 100%;
+  
+}
+
+.slide {
+  display: inline-block;
+  position: relative;
+  width: 20%;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  font-family: Georgia, serif;
+font-size: 25px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #000000;
+font-weight: 700;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: capitalize;
+
+
+}
+
+.slide span {
+
+  color: #FFF;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 25vh;
+  padding: 0 1vh;
+
+  width: 100%;
+
+  display: grid;
+  text-align: center;
+
+}
+
+
+.one {
+  background-image: url();
+}
+
+.two {
+  background-image: url(https://i.ytimg.com/vi/YMDInSfTWwY/maxresdefault.jpg);
+}
+
+.three {
+  background-image: url(https://thumbs.dreamstime.com/b/artificial-intelligence-innovation-concept-creative-ai-circuit-brain-icons-d-rendering-149448988.jpg);
+}
+
+.four {
+  background-image: url(https://www.smartdatacollective.com/wp-content/uploads/2020/12/shutterstock_1145343713.jpg);
+}
+
+.five {
+  background-image: url(https://th.bing.com/th/id/R.a0b9a5aef017a843dce0fd90df821a19?rik=YW%2fMBTecuydLpQ&pid=ImgRaw&r=0);
+}
+
+.fiv {
+  background-image: url(https://th.bing.com/th/id/R.80cf28042f29fa8d5ec319ff7dacd27c?rik=eOOK09C%2bCH3CZg&pid=ImgRaw&r=0);
+}
+
+@keyframes sliding {
+  0% {left: 0%; }
+  15% {left: 0%; }
+  20% {left: -100%; }
+  35% {left: -100%; }
+  40% {left: -200%; }  
+  55% {left: -200%; }
+  60% {left: -300%; }
+  75% {left: -300%; }
+  80% {left: -400%; }
+  95% {left: -400%; }   
+  100% {left: 0; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end of slide show image*/
+
+
+
+
+
+
+
+
+
+
+
+/* start navigation */
+
+
+
+   body {margin:0;font-family:Arial}
+    
+    .topnav {
+      overflow: hidden;
+      background-color: #000;
+      margin-bottom :0px;
+
+      
+    
+    }
+    
+    .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+
+
+      
+    }
+    
+    .active {
+      background-color: #6b0b5d;
+      color: white;
+    }
+    
+    .topnav .icon {
+      display: none;
+    }
+    
+    .dropdown {
+      float: left;
+      overflow: hidden;
+     
+      
+    }
+    
+    .dropdown .dropbtn {
+      font-size: 17px;    
+      border: none;
+      outline: none;
+      color: white;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+
+    }
+    
+    .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .topnav a:hover, .dropdown:hover .dropbtn {
+      background-color: #6b0b5d;
+      color: white;
+    }
+    
+    .dropdown-content a:hover {
+      background-color: #6b0b5d;
+      color: white;
+    }
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    
+    @media screen and (max-width: 600px) {
+     
+      .topnav a:not(:first-child), .dropdown .dropbtn {
+        display: none;
+      }
+      .topnav a.icon {
+	     
+        float: right;
+        display: block;
+      }
+   
+      .topnav.responsive {position: relative;}
+      .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+
+
+
+        
+      }
+      .topnav.responsive .dropdown {float: none;}
+      .topnav.responsive .dropdown-content {position: relative;}
+      .topnav.responsive .dropdown .dropbtn {
+        display: block;
+        width: 100%;
+        text-align: left;
+          overflow:hidden;
+
+
+          
+
+          
+      }
+  
+      .slide span .h1{
+        
+        width: 100%;
+  margin: 0 auto 0 auto;
+  font-family: 'Lato', sans-serif;
+
+  font-size: 11.5rem;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  text-rendering: optimizeLegibility;font-size:11vw;
+}
+
+.slide span ,h2{
+
+font-size:7vw;
+}
+
+.courses-container {
+
+  line-height: 24px;
+}
+
+
+
+
+    }
+
+ 
+
+    @media screen and (min-width: 600px) {
+
+
+     
+      .slide span ,h2{
+
+
+}
+
+.courses-container {
+	margin-left: 33%;
+  line-height: 34px;
+  width: 100% !important;
+}
+
+
+
+    }
+ /* End navigation */
+
+
+
+/*main body */
+
+
+/*end of main body */
+
+
+
+/*imporntnt date  */
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+
+}
+
+
+
+
+
+
+
+
+
+
+/* end of imporntant date */
+ /*footer */
+
+    
+ .footer{
+background:#000;
+padding:30px 0px;
+font-family: 'Play', sans-serif;
+text-align:center;
+}
+
+.footer .row{
+width:100%;
+margin:1% 0%;
+padding:0.6% 0%;
+color:gray;
+font-size:0.8em;
+}
+
+.footer .row a{
+text-decoration:none;
+color:gray;
+transition:0.5s;
+}
+
+.footer .row a:hover{
+color:#fff;
+}
+
+.footer .row ul{
+width:100%;
+}
+
+.footer .row ul li{
+display:inline-block;
+margin:0px 30px;
+}
+
+.footer .row a i{
+font-size:2em;
+margin:0% 1%;
+}
+
+@media (max-width:720px){
+ 
+
+
+
+.footer{
+text-align:left;
+padding:5%;
+}
+.footer .row ul li{
+display:block;
+margin:10px 0px;
+text-align:left;
+}
+.footer .row a i{
+margin:0% 3%;
+}
+}
+li,p{
+ font-family: Arial, Helvetica, sans-serif;color: #666666;
+}
+h3{
+
+  font-weight: 350;font-size: 24px;line-height: 54px;color: #222222;font-family: 'Tenor Sans';text-transform: capitalize;
+
+}
+
+
+/* download button  */
+@media screen and (max-width: 600px) {
+  .buttons {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left; /* Align left on mobile devices */
+    margin-left: -1%;
+  }
+
+
+ 
+}
+
+.buttons {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center; /* Center alignment on larger screens */
+  padding: 11px 32px;
+  border: solid 1px #ffffff;
+  border-radius: 4px;
+  font: 18px Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #ffff;
+  background-color: #6b0b5d;
+  background-image: -moz-linear-gradient(top, #6b0b5d 0%, #6b0b5d 100%);
+  background-image: -webkit-linear-gradient(top, #6b0b5d 0%, #6b0b5d 100%);
+  background-image: -o-linear-gradient(top, #6b0b5d 0%, #c28aba 100%);
+  background-image: -ms-linear-gradient(top, #6b0b5d 0%, #c28aba 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c28aba', endColorstr='#c28aba', GradientType=0);
+  background-image: linear-gradient(top, #6b0b5d 0%, #c28aba 100%);
+  box-shadow: 0px 0px 2px #fcfcfc, inset 0px 0px 1px #ffffff;
+}
+
+
+  .buttons:hover{
+
+
+    text-decoration:none; 
+ text-align:center; 
+ padding:18px 38px; 
+ border:solid 1px #ffffff; 
+ -webkit-border-radius:4px;
+ -moz-border-radius:4px; 
+ border-radius: 4px; 
+ font:18px Arial, Helvetica, sans-serif; 
+ font-weight:bold; 
+ color:#ffff; 
+ background-color:#6b0b5d; 
+ background-image: -moz-linear-gradient(top, #6b0b5d 0%, #c28aba 100%); 
+ background-image: -webkit-linear-gradient(top, #6b0b5d 0%, #c28aba 100%); 
+ background-image: -o-linear-gradient(top, #6b0b5d 0%, #c28aba 100%); 
+ background-image: -ms-linear-gradient(top, #6b0b5d 0% ,#c28aba 100%); 
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c28aba', endColorstr='#c28aba',GradientType=0 ); 
+ background-image: linear-gradient(top, #6b0b5d 0% ,#c28aba 100%);   
+ -webkit-box-shadow:0px 0px 2px #fcfcfc, inset 0px 0px 1px #ffffff; 
+ -moz-box-shadow: 0px 0px 2px #fcfcfc,  inset 0px 0px 1px #ffffff;  
+ box-shadow:0px 0px 2px #fcfcfc, inset 0px 0px 1px #ffffff;  
+
+  }
+
+
+
+
+
+
+
+
+
+  /*table cs */
+  .table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-header,
+.table-row {
+
+  display: flex;
+}
+
+.table-header{
+  background-color: #6b0b5d;
+  color:white;
+}
+.table-header,a{
+  
+  color:white;
+  text-decoration: none;
+}
+.table-row{
+
+  background-color: #f5f4f0;
+}
+.header__item,
+.table-data {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .table-header,
+  .table-row {
+    flex-wrap: wrap;
+  }
+  
+  .header__item,
+  .table-data {
+    flex-basis: 50%;
+  }
+}
+
+
+/*bell */
+.constant-tilt-shake {
+  animation: tilt-shaking 0.3s infinite;
+}
+
+
+@keyframes tilt-shaking {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(5deg); }
+  50% { transform: rotate(0eg); }
+  75% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.skew-shake-x {
+  animation: skew-x-shake 1.3s infinite;
+}
+
+@keyframes skew-x-shake {
+  0% { transform: skewX(-15deg); }
+  5% { transform: skewX(15deg); }
+  10% { transform: skewX(-15deg); }
+  15% { transform: skewX(15deg); }
+  20% { transform: skewX(0deg); }
+  100% { transform: skewX(0deg); }  
+}
+
+
+.skew-shake-y {
+  animation: tilt-shaking 1.3s infinite;
+}
+
+@keyframes tilt-shaking {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(5deg); }
+  50% { transform: rotate(0eg); }
+  75% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.database {
+  display: inline-block;
+  animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+  50% {
+    transform: rotate(90deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/*
+.zoom{
+
+  transition: transform .2s;
+  animation: zoomnow 2s infinite linear;
+
+}
+@keyframes zoomnow{
+
+  50% {-ms-transform: scale(0.5); /* IE 9
+  -webkit-transform: scale(0.5); /* Safari 3-8 
+  transform: scale(0.5); 
+  }
+ 
+} */
+    </style>
+  </head>
+  <body>
+ 
+    
+
+
+
+
+    <div class="topnav" id="myTopnav">
+      <a href="../index.html" class="active">Home</a>
+   
+      <a href="pastconference.html">Past Conference</a>
+      <a href="committees.html">Committees</a>
+     
+      <a href="submission.html">Registration</a>
+      
+     
+
+      
+      <a href="keynote.html">keynote</a>
+      
+      
+      <div class="dropdown">
+       
+        <button class="dropbtn">CFP
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="cfp.html">CFP</a>
+          <a href="submission.html">Submission</a>
+         
+        </div>
+      </div> 
+
+
+
+
+
+
+
+      <div class="dropdown" >
+       
+        <button class="dropbtn">Program
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="program.html">Programs</a>
+          <a href="schedule.html">Schedule</a>
+         
+        </div>
+      </div> 
+
+
+
+
+      <a href="venue.html">Venue</a>
+    
+     
+
+      <a href="contact.html">Contact</a>
+
+
+
+
+
+
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    
+  </div>
+
+    <main>
+
+
+      <header class="cont-slider">
+          
+        <section class="slider">
+          
+          <article class="slide one"><span><h1 >2023 International Conference</h1>
+            <h2 >on Smart Internet of Things</h1>
+            
+
+</span></article><!--
+          --><article class="slide two"><span><h1 >2023 International Conference</h1>
+            <h2 >on Smart Internet of Things</h1>
+               </span></article><!--
+          --><article class="slide three"><span> <h1 >2023 International Conference</h1>
+            <h2 style="color:whi" >on Smart Internet of Things</h1>
+              </span></article><!--
+          --><article class="slide four"><span><h1 >2023 International Conference</h1>
+            <h2 >on Smart Internet of Things</h1>
+              </span></article><!--
+          --><article class="slide five"><span><h1 >2023 International Conference</h1>
+            <h2 >on Smart Internet of Things</h1>
+              </span></article>
+          <article class="slide fiv"><span><h1 >2023 International Conference</h1>
+            <h2 >on Smart Internet of Things</h1>
+            </span></article>
+          
+        </section>
+    </header>
+        
+
+
+
+<br>
+
+
+
+<main style="margin-right: 30px; margin-left: 30px; border-radius: 20px; padding: 20px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+
+
+      <div class="content">
+        <div class="section" >
+        <p>    </h1 style="text-align: justify;font-family: Arial, Helvetica, sans-serif;line-height:28px;color:#666666" ><i class="fa fa-calendar-plus-o skew-shake-x" aria-hidden="true" ></i> Important Dates</h1> </p>
+        <br>
+        <br>
+
+          <p style="text-align: justify;font-family: Arial, Helvetica, sans-serif;line-height:28px;color:#666666">  
+
+
+            English is the official language of the SIoT 23. It shall be used for all printed materials, presentations and discussions. Submitted publication should contain original materials which have not been previously published and are not under review elsewhere.
+
+The final version of a paper must be 5-6 pages and be prepared according to the guidelines defined in Conference Template. The paper should be submitted in DOC, DOCX, or PDF formats (in English only).
+
+          </p>
+
+          <br> <br>
+
+          <a href="SE_Word_Template.doc" download="SE_Word_Template.doc" class="buttons">
+            <i class="fa fa-cloud-download" aria-hidden="true"></i> Download Word Template
+          </a>
+          
+
+          <a href="#" class="buttons"><i class="fa fa-cloud-download" aria-hidden="true"></i>  Download Latex Template</a>
+
+
+
+
+          <br><br>
+
+
+          <p style="text-align: justify;font-family: Arial, Helvetica, sans-serif;line-height:28px;color:#666666">  
+
+
+            An extra fee will be charged for each additional page above 6 pages. Papers should be submitted online via EasyChair system.
+          </p>
+
+
+          <br><br>
+          <a href="https://easychair.org/account/signin?l=YYiH51qqEWt0QrjSjB13WC" class="buttons"><i class="fa fa-cloud-download" aria-hidden="true"></i>  Submit Papers</a>
+
+
+
+            <br><br><br>
+            <p style="text-align: justify;font-family: Arial, Helvetica, sans-serif;line-height:28px;color:#666666">  
+
+
+              The submitted publication should define the scope of the paper, emphasizing new advances, theories and/or applications and include an analysis of results.
+
+              After notification of paper acceptance, it is a requirement that at least the one presenting author of every accepted paper must get registered, pay a participation fee and take part in the conference.
+              
+              It should be noted that one author can be co-author not more than in two papers. Exception is the scientists who are heads of the scientific schools and their PhD students presents the joint results of the research.
+              
+              AIoTSS 23 will have a single-round blind peer review process. All submitted papers will be sent to at least two independent anonymous reviewers. All accepted papers which will be presented at the conference will be included in AIoTSS Conference Proceedings.
+            </p>
+
+            <br><br>
+
+            <p style="box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;;text-align: justify;font-family: Arial, Helvetica, sans-serif;line-height:28px;color:#666666;font-size: 20px;text-align: center;">
+              <br><br>
+              The SIoT Conference Proceedings will be submitted for consideration in various Abstracting and Indexing (A&I) databases.
+              <br><br>
+           
+            </p>
+            
+            <br><br>
+
+
+
+           
+
+            <h2 style="font-weight: 350;font-size: 24px;line-height: 54px;color: #222222;font-family: 'Tenor Sans';text-transform: capitalize;">  “No-show” papers won’t be included into the SIoT Conference Proceedings..</h2>
+
+<br>
+
+<p style="text-align: justify;font-family: Arial, Helvetica, sans-serif;line-height:28px;color:#666666">  
+
+
+ <i style="font-weight: bold;"> Ethics and Permissions: </i>  The results of the research presented in the manuscript, should be original. However, if figures, tables, animations or text quotations from copyrighted works (including websites) are included in the paper, permission must be obtained from the copyright holder (usually the original publisher) and the author(s) for both the print and the online format.
+<br><br>
+ <i style="font-weight: bold;">Avoidance of Self-plagiarism: </i> A certain overlap in scientific content between articles by the same author is standard practice and to be expected. However, it is essential that transparency is retained and appropriate references included. Permission must be obtained from other publishers, where appropriate.
+
+
+</p>
+
+        <br>
+        <i style="color:#666;font-family: Arial, Helvetica, sans-serif;"><i class="fa fa-envelope-o skew-shake-y" aria-hidden="true">  </i> <a href="mailto:mercel.vubangsi@outlook.cm" style="color:#666"> mercel.vubangsi@outlook.cm </a> </i>
+</br>
+
+       
+        
+
+<br><br>
+<p>
+<h2 style="font-weight: 350;font-size: 24px;line-height: 54px;color: #222222;font-family: 'Tenor Sans';text-transform: capitalize;"> <i class="fa fa-database database" aria-hidden="true"></i>  Registration</h2>
+</p>
+
+<p style="text-align: justify;font-family: Arial, Helvetica, sans-serif;line-height:28px;color:#666666">  
+
+
+  <i style="font-weight: bold;">  Author registration  </i> is compulsory for presentation, publication and proceedings. In order to include the paper in the SIoT conference proceedings, one of the authors of each accepted paper must present the paper and complete the registration before the specified deadline. The delegates are also welcome to attend the conference without paper submission provided that an appropriate participant registration fee have been paid.
+
+ <br>
+  
+ 
+ </p>  
+
+
+ <br>
+ <p style="text-align: justify;font-family: Arial, Helvetica, sans-serif;line-height:28px;color:#666666">  
+
+
+  <i style="font-weight: bold;">   Special discounts will be made to authors (if requested during registration process). Requests will be entertained on first-come-first-sever bases.
+  <br> <br> Following fee structure is based for virtual conference. In case of physical conference, the amount varies.
+    </i> 
+    <br>
+ <br>
+  
+ 
+ </p>
+
+ 
+ <div class="table">
+  <div class="table-header">
+    <div class="header__item"><a id="name" class="filter__link" href="#"></a></div>
+    <div class="header__item"><a id="wins" class="filter__link filter__link--number" href="#">Regular</a></div>
+    <div class="header__item"><a id="draws" class="filter__link filter__link--number" href="#">Student</a></div>
+    <div class="header__item"><a id="losses" class="filter__link filter__link--number" href="#">Participant</a></div>
+  </div>
+  <div class="table-content">
+    <div class="table-row">
+      <div class="table-data"></div>
+      <div class="table-data"></div>
+      <div class="table-data"></div>
+      <div class="table-data"></div>
+      <div class="table-data"></div>
+    </div>
+    <div class="table-row">
+      <div class="table-data">Standard</div>
+      <div class="table-data">$300</div>
+      <div class="table-data">$250</div>
+      <div class="table-data">$100</div>
+    </div>
+  </div>
+</div>
+
+
+
+<br>
+
+      <p style="text-align:justify;font-family:  Arial, Helvetica, sans-serif;line-height: 30px;">* For 'Student Registration', student must be the first author of the paper and need to provide proof of being a student (a valid student certificate/card).</p>
+                        <p>For more than one paper, author need to pay same amount as mentioned above for each paper. Extra pages (more than 6) of submitted publication imply the payment of <sup>$</sup>30 per page. </p>
+            
+                        </div>
+                        <br><br>
+                        <h3 style="font-weight: 350;font-size: 24px;line-height: 54px;color: #222222;font-family: 'Tenor Sans';text-transform: capitalize;">Fee: Local Participants</h3>
+
+
+
+<div class="container">
+	
+	<div class="table">
+		<div class="table-header">
+			<div class="header__item"><a id="name" class="filter__link" href="#"></a></div>
+			<div class="header__item"><a id="wins" class="filter__link filter__link--number" href="#">Regular</a></div>
+			<div class="header__item"><a id="draws" class="filter__link filter__link--number" href="#">Student</a></div>
+			<div class="header__item"><a id="losses" class="filter__link filter__link--number" href="#">Participant</a></div>
+	
+		</div>
+		<div class="table-content">	
+			<div class="table-row">		
+				<div class="table-data"></div>
+				<div class="table-data"></div>
+				<div class="table-data"></div>
+				<div class="table-data"></div>
+				<div class="table-data"></div>
+			</div>
+			<div class="table-row">
+				<div class="table-data">Standard</div>
+				<div class="table-data">$250</div>
+				<div class="table-data">$200</div>
+				<div class="table-data">$100</div>
+			
+			</div>
+		<div class="table-content">	
+			<div class="table-row">		
+				<div class="table-data"></div>
+				<div class="table-data"></div>
+				<div class="table-data"></div>
+				<div class="table-data"></div>
+				<div class="table-data"></div>
+			</div>
+		</div>	
+	</div>
+</div>
+
+
+        </div>
+      </div>
+
+      <br>
+
+
+      <p style="text-align:justify;font-family:  Arial, Helvetica, sans-serif;line-height: 30px;">* For 'Student Registration', student must be the first author of the paper and need to provide proof of being a student (a valid student certificate/card).</p>
+      <p>For more than one paper, author need to pay same amount as mentioned above for each paper. Extra pages (more than 6) of submitted publication imply the payment of <sup>$</sup>25 per page. </p>
+
+      </div>
+<br><br>
+
+
+
+
+
+
+
+
+
+<br>
+<i style="color:#666;font-family: Arial, Helvetica, sans-serif;"><i class="fa fa-envelope-o skew-shake-y" aria-hidden="true">  </i> <a href="mailto:mercel.vubangsi@outlook.cm" style="color:#666"> mercel.vubangsi@outlook.cm </a> </i>
+</br>     
+
+
+
+
+<br><br>
+<div class="payment" style="box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;" > 
+<h3 style="font-weight: 350;font-size: 24px;line-height: 54px;color: #222222;font-family: 'Tenor Sans';text-transform: capitalize;"><i class="fa fa-credit-card zoom" aria-hidden="true"></i>  Payment</h3>
+
+
+
+
+<p style="text-align: justify;font-family: Arial, Helvetica, sans-serif;line-height:28px;color:#666666">  
+
+
+  <i style="font-weight: bold;">  The corresponding author(s) of the accepted paper(s) will receive the information regarding payment method for registration via email at the time of acceptance notification.
+<br>
+    Other prospective participants can send email at <spann style="color:#6b0b5d"> <a href="mailto:mercel.vubangsi@outlook.cm" style="color:#6b0b5d"> mercel.vubangsi@outlook.cm </a> </spann>  to get payment information.
+    </i>
+    
+    
+    <span style="padding-bottom: 50px;font-family: Arial, Helvetica, sans-serif;"><i class="fa fa-envelope-o" aria-hidden="true"></i>    </span>
+        
+    
+    
+    
+    
+    
+    
+    <br><br>
+  </div>
+ <br>
+
+ <h3 style="font-weight: 350;font-size: 24px;line-height: 54px;color: #222222;font-family: 'Tenor Sans';text-transform: capitalize;"><i class="fa fa-picture-o" aria-hidden="true"></i>  Presentation Guidelines</h3>
+
+<p style="text-align: justify;font-family: Arial, Helvetica, sans-serif;line-height:28px;color:#666666">  
+  Will be announce at time of acceptance notification.
+</p><br><br>
+<hr>
+<span  style="text-align: justify;font-family: Arial, Helvetica, sans-serif;line-height:28px;color:#666666"><i class="fa fa-bell-o constant-tilt-shake" aria-hidden="true"></i>  stay tuned for updates. </span>  
+   <br>
+
+ 
+ </p>
+<br>
+<h3 style="font-weight: 350;font-size: 24px;line-height: 54px;color: #222222;font-family: 'Tenor Sans';text-transform: capitalize;"><i class="fa fa-book" aria-hidden="true"></i> Publication & Indexing</h3>
+ 
+
+
+<p style="box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;;text-align: justify;font-family: Arial, Helvetica, sans-serif;line-height:28px;color:#666666;font-size: 20px;text-align: center;">
+  <br><br>
+  The AIoTSS Conference Proceedings will be submitted for consideration in various Abstracting and Indexing (A&I) databases.
+  <br><br>
+
+</p>
+<br><br>
+<span  style="text-align: justify;font-family: Arial, Helvetica, sans-serif;line-height:28px;color:#666666"><i class="fa fa-bell-o constant-tilt-shake" aria-hidden="true"></i>  stay tuned for updates. </span>  
+
+
+
+
+
+
+
+
+    </main>
+    <footer>
+      <div class="footer">
+      <div class="row">
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+      <a href="#"><i class="fa fa-youtube"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      </div>
+      
+      <div class="row">
+      <ul>
+      <li><a href="#">Contact us</a></li>
+      <li><a href="#">Our Services</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+      <li><a href="#">Terms & Conditions</a></li>
+      <li><a href="#">Projects</a></li>
+      </ul>
+      </div>
+      
+      <div class="row">
+        © 2023 NEU AIIoT Conference Web App. All rights reserved.
+      </div>
+      </div>
+      </footer>
+      
+      
+         
+          
+          <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+            </script>
+  </body>
+</html>

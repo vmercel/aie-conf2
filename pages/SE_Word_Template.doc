@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>AIoT 23 | Home</title>
+  <meta content="International Conference on Artificial Intelligence of Things for Smart Societies (AIoTSS 23)" name="AIoT 23">
+  <meta content="International Conference on Artificial Intelligence of Things for Smart Societies" name="description">
+  <meta content="AIoTSS conferece, conference, AIoT, AIoT 23,  Turkey, Cyprus, Europe, Asia, Middle East, Africa, No Fee" name="keywords">
+	
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Muli:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+            <div class="social-links d-none d-md-flex align-items-center">
+        <!--<li><a href="#"><strong>The proceedings of the AIoTSS’23 conference will be published on the IET Digital Library and submitted for publication on the IEEE Xplore platform.</strong></a></li>
+<li><a href="#"><strong>The proceedings will be indexed by IET Inspec, Ei Compendex and Scopus.</strong></a></li> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-between">
+
+      <div class="logo">
+        <h1 class="text-light"><a href="index.html">Artificial Intelligence of Things for Smart Societies</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!--<a href="index.html"><img src="assets/img/logo.jpg" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+		  <li class="dropdown"><a href="about.html"><span>About</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="about.html#conf-scope">Conference Scope</a></li>
+              <li><a href="about.html#imp-dates">Important Dates</a></li>
+              <li><a class="cta-btn align-middle" href=" SE_23.pdf" download="SE_23.pdf">Download CFP >></a></li>
+              <li><a href="committees.html">Committees</a></li>
+			  
+            </ul>
+          </li>
+		  
+           
+		  <li class="dropdown"><a href="authors-cornor.html"><span>Authors</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="authors-cornor.html#submissioin-guidelines">Submission & Template</a></li>
+              <li><a href="authors-cornor.html#registration">Registration</a></li>
+			        <li><a href="authors-cornor.html#payments">Payments</a></li>
+              <li><a href="authors-cornor.html#presentation-guidelines">Presentation Guidelines</a></li>
+              <li><a href="authors-cornor.html#pub&index">Publication & Indexing</a></li>
+            </ul>
+            
+          </li>
+          <!--<li><a href="/assets/docs/aiot_prog_schedule.pdf" target="_blank" class="btn-get-started">Program Schedule</a></li>-->
+		  <li><a href="https://easychair.org/conferences/?conf=se23" target="_blank">Submit Paper</a></li>
+		  <!--<li><a href="journal-special-issues.html">Special Issues</a></li>-->
+		  <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+      <div class="carousel-inner" role="listbox">
+
+
+    
+
+<div class="carousel-item active" style="background-image: url('assets/img/slide/kuniv.jpg');">
+          <div class="carousel-container">
+            <div class="carousel-content animate__animated animate__fadeInUp">
+              <h2>International Conference on Artificial Intelligence of Things for Smart Societies</span></h2>
+              <h3>North Cyprus | Feb. 15-18, 2023  | 9am Cyprus Time</h3>
+              <!--<div class="text-center"><a href="" class="btn-get-started">Read More</a></div>-->
+            </div>
+          </div>
+        </div>
+        
+    
+		
+		<!-- Slide 4 -->
+        <div class="carousel-item" style="background-image: url('pic.jpg');">
+          <div class="carousel-container">
+            <div class="carousel-content animate__animated animate__fadeInUp">
+              <h2>Near East University</h2>
+              <h4>42 Years in Education.</h4>
+			  <p>The Near East University (www.neu.edu.tr), established in 1988, is located in Nicosia, capital of North Cyprus, and as an international higher education institution employing highly qualified staff, offers the most extensive undergraduate and postgraduate education opportunities to over 26 thousand students coming from over 100 countries.</p>
+              <div class="text-center"><a href="https://neu.edu.tr/" target="_blank" class="btn-get-started">Read More</a></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bx bx-left-arrow" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bx bx-right-arrow" aria-hidden="true"></span>
+      </a>
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+	
+	  
+	<br>
+	
+	<!-- ======= Notification Section ======= 
+    <section id="ntc" class="ntc">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-12 text-center text-lg-left">
+            <h3><a href="/assets/docs/aiot_prog_schedule.pdf" target="_blank" class="btn-get-started"> <span>Download AIoTSS 23 Conference Program Schedule</span>.</h3>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Notification Section -->
+	
+    <!-- ======= Announcements 280px======= -->
+    <section id="announcements280px" class="announcements280px">
+      <div class="container">
+
+        <div class="row gy-4">
+		  <div class="col-lg-5">
+            <div class="icon-box" data-aos="fade-right">
+              <div class="icon"><i class="bi bi-calendar4-week"></i></div>
+              <h4 class="title"><a href="about.html#imp-dates">Important Dates</a></h4>
+
+			  <div class="row" style="margin-bottom: 10px;">
+				<div class="span2" style="float: left; min-height: 1px; margin-left: 0px; margin-right: 0px; width: 230px;">
+				  <p class="light" style="margin: 0px; font-family: 'Open Sans', sans-serif; line-height: 1em; color: #333333; text-rendering: optimizelegibility; font-size: 14px; text-align: left; padding: 0px 0px;">Opening date for paper submission</p>
+				</div>
+				<div class="span2" style="float: left; min-height: 1px; margin-left: 0px; margin-right: 0px; width: 150px;">
+				  <p class="light" style="margin: 0px; font-family: 'Open Sans', sans-serif; line-height: 1em; color: #333333; text-rendering: optimizelegibility; font-size: 14px; text-align: left; padding: 0px 0px;"><strong>:&nbsp Dec. 10, 2022</strong></del></p>
+				</div>
+			  </div>
+			  <div class="row" style="margin-bottom: 10px;">
+				<div class="span2" style="float: left; min-height: 1px; margin-left: 0px; margin-right: 0px; width: 230px;">
+				  <p class="light" style="margin: 0px; font-family: 'Open Sans', sans-serif; line-height: 1em; color: #333333; text-rendering: optimizelegibility; font-size: 14px; text-align: left; padding: 0px 0px;">Closing date for paper submissions </p>
+				</div>
+				<div class="span2" style="float: left; min-height: 1px; margin-left: 0px; margin-right: 0px;  width: 150px;">
+				  <p class="light" style="margin: 0px; font-family: 'Open Sans', sans-serif; line-height: 1em; color: #333333; text-rendering: optimizelegibility; font-size: 14px; text-align: left; padding: 0px 0px;">:&nbsp<strong> Jan. 15, 2023</strong></p>
+				</div>
+			  </div>
+			  <div class="row" style="margin-bottom: 10px;">
+				<div class="span2" style="float: left; min-height: 1px; margin-left: 0px; margin-right: 0px; width: 230px;">
+				  <p class="light" style="margin: 0px; font-family: 'Open Sans', sans-serif; line-height: 1em; color: #333333; text-rendering: optimizelegibility; font-size: 14px; text-align: left; padding: 0px 0px;">Notification of acceptance or rejection</p>
+				</div>
+				<div class="span2" style="float: left; min-height: 1px; margin-left: 0px; margin-right: 0px; width: 150px;">
+				  <p class="light" style="margin: 0px; font-family: 'Open Sans', sans-serif; line-height: 1em; color: #333333; text-rendering: optimizelegibility; font-size: 14px; text-align: left; padding: 0px 0px;"><strong>:&nbsp Jan. 24, 2023</strong></p>
+				</div>
+			  </div>
+			  <div class="row" style="margin-bottom: 10px;">
+				<div class="span2" style="float: left; min-height: 1px; margin-left: 0px; margin-right: 0px; width: 230px;">
+				  <p class="light" style="margin: 0px; font-family: 'Open Sans', sans-serif; line-height: 1em; color: #333333; text-rendering: optimizelegibility; font-size: 14px; text-align: left; padding: 0px 0px;">Final paper submission due</p>
+				</div>
+				<div class="span2" style="float: left; min-height: 1px; margin-left: 0px; margin-right: 0px; width: 150px;">
+				  <p class="light" style="margin: 0px; font-family: 'Open Sans', sans-serif; line-height: 1em; color: #333333; text-rendering: optimizelegibility; font-size: 14px; text-align: left; padding: 0px 0px;"><strong>:&nbsp Feb. 04, 2023</strong></p>
+				</div>
+			  </div>
+			  
+            </div>
+          </div>
+		  <div class="col-lg-3">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="20">
+              <div class="icon"><i class="bi bi-card-checklist"></i></div>
+              <h4 class="title"><a href="about.html#conf-scope">Call for Papers</a></h4>
+              <p class="description">It is a great pleasure to invite you to participate in <strong>AIoTSS 23</strong>, organized by <a href="https://neu.edu.tr/?lang=en" target="_blank">NEU-Cyprus</a>, and <a href="https://kyrenia.edu.tr/?lang=en" target="_blank">UoK-Cyprus</a>, on Feb. 15-18, 2023. Topics of interest for <strong>AIoTSS 23</strong> conference are not limited...</p>
+			  <div class="text-center"><a href="about.html#conf-scope" class="btn-get-started">Learn More >></a></div>
+            </div>
+          </div>
+		  <div class="col-lg-4">
+            <div class="icon-box" data-aos="fade-left" data-aos-delay="50">
+              <div class="icon"><i class="bi bi-briefcase"></i></div>
+              <h4 class="title"><a href="authors-cornor.html#submissioin-guidelines">Submission Guidelines</a></h4>
+              <p class="description">The final version of a paper must be <strong>5-6 pages</strong> and be prepared according to the guidelines defined in Conference Template</a> (<a href="SE_Word_Template.doc" download="SE_Word_Template.doc">Download Word Template</a>, <a href="SE_Latex_Template.zip" download="SE_Latex_Template.zip">Latex</a>). The paper should be submitted using <a href="https://easychair.org/conferences/?conf=se23" target="_blank"> EasyChair services</a> in DOC, DOCX, or PDF formats (in English only)...</p>
+			  <div class="text-center"><a href="authors-cornor.html#submissioin-guidelines" class="cta-btn">Learn More >></a></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Announcements280px Section -->
+	
+	<!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container">
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-7 text-center text-lg-left">
+            <h3>Welcome to International Conference on</h3>
+              <h2>Artificial Intelligence of Things for Smart Societies</h2>
+              <p align="justify">
+                <strong>AIoTSS 23</strong> is organized by <strong>Artificial Intelligence Engineering Department, Research Center for AI and IoT, Near East University</strong>, Northern Cyprus. It aims to bring together researchers and professionals to exchange ideas on the advancements in technology, application areas for advanced communication systems and development of new services, facilitate a tremendous growth of new devices and smart things that need to be connected to the Internet through a variety of wireless technologies. Parallel to this, new capabilities such as pervasive sensing, multimedia sensing, machine learning, deep learning, unmanned aerial vehicles, cloud and edge computing, energy efficiency/harvesting and computing power opens the way to new domains, services and business models beyond the traditional mobile Internet. The new areas in turn come with various requirements in terms of reliability, quality of service, and energy efficiency. These are only some examples of the challenges that are of interest to researchers in Artificial Intelligence of Things for Smart Societies (AIoTSS). The event will cover two days of top-quality content and innovative thought leadership discussions.
+              </p>
+              <p align="justify">All submitted papers will be peer reviewed by at least two reviewers and evaluated based on originality, technicality  and research content/depth, correctness, relevance to conference, contributions, and readability. The papers will be chosen for final presentation based on technical merit, interest, applicability, and how well they fit a coherent and balanced technical program. Authors of accepted papers must give oral presentation of their paper(s) at the conference. The presented papers will be included in the conference proceedings. Conference Proceedings will be published soon after the <strong>AIoTSS 23</strong> Conference. All papers must be formatted and at least one author of accepted papers must register to the conference as presenter in order to appear in the proceedings.<p>
+
+          </div>
+		  <div class="col-lg-5 text-left">
+        <h2>Conference Scope</h2>
+			  <h3>Topics of interest for AIoTSS 23 include but are not limited to:</h3>
+			  <ul>
+<li>IoT-oriented wellbeing applications</li>
+<li>IoT-oriented services for all</li>
+<li>Unobstructed information technology</li>
+<li>IoT-oriented special needs services</li>
+<li>Society e-health applications</li>
+<li>IoT-oriented society events</li>
+<li>Smart wellbeing and/or behaviour Apps</li>
+<li>Smart metaverse Apps</li>
+<li>Sustainable development goals</li>
+<li>Sustainable cities</li>
+<li>Quality of Education</li>
+			    <li>IoT-oriented medical applications</li>
+				<li>IoT paradigms in sustainable education systems</li>
+				<li>IoT solutions in sustainable social communications</li>
+				<li>IoT solutions in sustainable power systems</li>
+				<li>Architectures &amp; protocols for wireless sensor networks &amp; wireless multimedia sensor networks</li>
+				<li>Internet/Web of Things &amp; Machine-to-Machine (M2M) communications</li>
+				<li>Performance evaluation methods for QoS</li>
+				<li>Heterogeneous wireless access networks</li>
+				<li>IoT &amp; E-Health</li>
+				<li>Machine Learning (ML) in sustainable systems</li>
+				<li>ML approaches for network planning</li>
+				<li>ML in e-health &amp; smart systems</li>
+				<li>Clouds &amp; Edge Computing</li>
+				<li>Network mobility &amp; handover management</li>
+				<li>Network security, trust &amp; privacy in a wired/wireless Environments</li>
+				<li>Routing in wired/wireless Environments</li>
+				<li>Drones/unmanned aerial vehicles (UAVs) in IoT</li>
+				<li>Public Safety Networks &amp; Disaster recovery using wireless communications</li>
+				<li>Software-defined wireless networks</li>
+				<li>Smart Networking &amp; Beyond</li>
+				<li>Wearable communications &amp; computing</li>
+				<li>Energy harvesting &amp; sustainability in smart cities</li>
+				<li>Employment of IoT &amp; mobile network technologies for education</li>
+			  </ul>
+			  <div class="text-center text-lg-end">
+                <a href="SE_23.pdf" download="SE_23.pdf" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+                  <span>Download CFP</span>
+                  <i class="bi bi-arrow-down"></i>
+                </a>
+              </div>
+
+			</div>
+          </div>
+          
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+	
+
+		<br>
+
+
+<!-- ======= Our Clients Section ======= -->
+    <section id="clients" class="clients">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2><strong><span>AIoTSS 23 </span>Organizers</strong></h2>
+          <p> </p>
+        </div>
+
+        <div class="row no-gutters clients-wrap clearfix" data-aos="fade-up">
+
+          <div class="col-lg-4 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <a href="https://iot.neu.edu.tr/" target="_blank"><img src="ai.png" width="500" height="500"class="img-fluid" alt="NEU"></a>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <a href="https://air.neu.edu.tr/" target="_blank"><img src="robotics.png" width="500" height="500"class="img-fluid" alt="NEU"></a>
+            </div>
+          </div>
+		  
+		 <!-- <div class="col-lg-4 col-md-4 col-xs-6">
+<div class="client-logo">
+<a href="https://www.theiet.org/"><img src="assets/img/logo.jpg" width="500" height="500"class="img-fluid" alt="IET"></a>
+
+          </div>
+</div>
+
+<div class="col-lg-4 col-md-4 col-xs-6">
+<div class="client-logo">
+<a href="https://iot.neu.edu.tr/"><img src="assets/img/scopus.png" width="500" height="500"class="img-fluid" alt="IET"></a>
+
+          </div>
+</div>-->
+
+<div class="col-lg-4 col-md-4 col-xs-6">
+<div class="client-logo">
+<a href="https://iot.neu.edu.tr/"><img src="assets/img/kyrenia.png" width="500" height="500"class="img-fluid" alt="UoK"></a>
+
+          </div>
+</div>
+		  <!--<div class="col-lg-4 col-md-4 col-xs-6">
+           
+                    
+        </div>
+
+      </div>
+    </section><!-- End Our Clients Section -->
+
+    
+  </main><!-- End #main -->
+
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+		
+		  <div class="col-lg-2 col-md-5">
+          </div>
+
+          <div class="col-lg-3 col-md-5 footer-contact">
+            <h3>AIoTSS 23</h3>
+            <p>
+              Faculty of Engineering<br>
+Near East University<br>
+Near East Boulevard<br>
+PK: 99138<br>
+Nicosia / TRNC<br>
+Mersin 10 – TURKEY<br>
+For more info. please contact Mrs. Sinem  <br><br>
+              <strong>Email:</strong> mercel.vubangsi@outlook.cm<br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-5 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="about.html#conf-scope">Scope</a></li>
+			  <li><i class="bx bx-chevron-right"></i> <a href="about.html#imp-dates">Important Dates</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="authors-cornor.html#submissioin-guidelines">Submission Guidelines</a></li>
+            </ul>
+          </div>
+		  
+		  <div class="col-lg-3 col-md-5 footer-links">
+            <h4>About AIoTSS Team</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="committees.html">Committees</a></li>
+              
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          © Copyright <strong><span>AIoTSS 23</span></strong>.
+        </div>
+        </div>
+    
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center active"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+
+
+</body></html>

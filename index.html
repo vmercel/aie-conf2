@@ -1,0 +1,1211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<html>
+  <head>
+ 
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+ 
+    <style>
+
+/*slide show css */
+
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Exo:100);
+* {margin: 0; padding: 0; border: 0 none;}
+html, body {height: 100%; width: 100%; font-size: 1rem; font-family: 'Exo', sans-serif; font-weight: 100;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.cont-slider {
+  position: relative;
+  height: 100vh;
+  max-height: 100vh;
+  width: auto;
+  min-width: 100vw;
+  margin: 0 auto;
+  overflow: hidden;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  background-image: url(https://th.bing.com/th/id/R.4f232eb9860d3496785dec369a9bb7be?rik=pfQJBJ6pVDAQrw&pid=ImgRaw&r=0);
+}
+
+.slider {
+  animation: sliding 25s ease-out 0s backwards infinite;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 500%;
+  height: 100%;
+  
+  
+}
+
+.slide {
+  display: inline-block;
+  position: relative;
+  width: 20%;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  font-family: Georgia, serif;
+font-size: 25px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #000000;
+font-weight: 700;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: capitalize;
+
+
+}
+
+.slide span {
+
+  color: #FFF;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 25vh;
+  padding: 0 1vh;
+
+  width: 100%;
+
+  display: grid;
+  text-align: center;
+
+}
+
+
+.one {
+  background-image: url();
+}
+
+.two {
+  background-image: url(https://i.ytimg.com/vi/YMDInSfTWwY/maxresdefault.jpg);
+}
+
+.three {
+  background-image: url(https://thumbs.dreamstime.com/b/artificial-intelligence-innovation-concept-creative-ai-circuit-brain-icons-d-rendering-149448988.jpg);
+}
+
+.four {
+  background-image: url(https://www.smartdatacollective.com/wp-content/uploads/2020/12/shutterstock_1145343713.jpg);
+}
+
+.five {
+  background-image: url(https://th.bing.com/th/id/R.a0b9a5aef017a843dce0fd90df821a19?rik=YW%2fMBTecuydLpQ&pid=ImgRaw&r=0);
+}
+
+.fiv {
+  background-image: url(https://th.bing.com/th/id/R.80cf28042f29fa8d5ec319ff7dacd27c?rik=eOOK09C%2bCH3CZg&pid=ImgRaw&r=0);
+}
+
+@keyframes sliding {
+  0% {left: 0%; }
+  15% {left: 0%; }
+  20% {left: -100%; }
+  35% {left: -100%; }
+  40% {left: -200%; }  
+  55% {left: -200%; }
+  60% {left: -300%; }
+  75% {left: -300%; }
+  80% {left: -400%; }
+  95% {left: -400%; }   
+  100% {left: 0; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end of slide show image*/
+
+
+
+
+
+
+
+
+
+
+
+/* start navigation */
+
+
+
+   body {margin:0;font-family:Arial}
+    
+    .topnav {
+      overflow: hidden;
+      background-color: #000;
+      margin-bottom :0px;
+
+      
+    
+    }
+    
+    .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+
+
+      
+    }
+    
+    .active {
+      background-color: #6b0b5d;
+      color: white;
+    }
+    
+    .topnav .icon {
+      display: none;
+    }
+    
+    .dropdown {
+      float: left;
+      overflow: hidden;
+     
+      
+    }
+    
+    .dropdown .dropbtn {
+      font-size: 17px;    
+      border: none;
+      outline: none;
+      color: white;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+
+    }
+    
+    .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .topnav a:hover, .dropdown:hover .dropbtn {
+      background-color: #6b0b5d;
+      color: white;
+    }
+    
+    .dropdown-content a:hover {
+      background-color: #6b0b5d;
+      color: white;
+    }
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    
+    @media screen and (max-width: 600px) {
+
+   
+
+
+
+      .topnav a:not(:first-child), .dropdown .dropbtn {
+        display: none;
+      }
+      .topnav a.icon {
+        float: right;
+        display: block;
+      }
+   
+      .topnav.responsive {position: relative;}
+      .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+
+
+
+        
+      }
+      .topnav.responsive .dropdown {float: none;}
+      .topnav.responsive .dropdown-content {position: relative;}
+      .topnav.responsive .dropdown .dropbtn {
+        display: block;
+        width: 100%;
+        text-align: left;
+          overflow:hidden;
+
+
+          
+
+          
+      }
+  
+      .slide span .h1{
+        
+        width: 100%;
+  margin: 0 auto 0 auto;
+  font-family: 'Lato', sans-serif;
+
+  font-size: 11.5rem;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  text-rendering: optimizeLegibility;font-size:11vw;
+}
+
+.slide span ,h2{
+
+font-size:7vw;
+}
+
+.courses-container {
+
+  line-height: 24px;
+}
+
+
+    }
+
+ 
+
+    @media screen and (min-width: 600px) {
+
+    
+      .firstapear2{
+
+margin-top: -12%;
+text-align: center;
+
+}
+.firstapear3{
+
+margin-top: -17%;
+position: absolute;
+  right: 0%;
+
+
+}
+
+
+      .slide span ,h2{
+
+
+}
+
+.courses-container {
+	margin-left: 33%;
+  line-height: 34px;
+  width: 100% !important;
+}
+
+
+
+    }
+ /* End navigation */
+
+
+
+/*main body */
+
+
+
+ .section h2,
+.section p,
+.section ul {
+   text-align: center;
+
+}
+
+body {
+
+height: 100%;
+width: 100%;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   color: #333;
+}
+
+
+
+.section {
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   padding: 20px;
+   margin-bottom: 20px;
+}
+
+.container{
+  line-height: 1.5;
+  padding: 40px;
+  max-width: 800px; margin: 0 auto;
+}
+
+
+.shifted{
+
+
+  font-size: 16px;
+    line-height: 18px;
+    color: #666666;
+    font-weight: 400;
+    line-height: 170%;
+}
+
+/*end of main body */
+
+
+
+/*imporntnt date  */
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+
+}
+
+
+
+.course {
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	display: flex;
+	max-width: 100%;
+	margin: 20px;
+	overflow: hidden;
+	width: 700px;
+}
+
+.course h5 {
+	opacity: 0.6;
+	margin: 0;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.course h2 {
+	letter-spacing: 1px;
+	margin: 10px 0;
+}
+
+.course-preview {
+	background-color: #6b0b5d;
+	color: #fff;
+	padding: 30px;
+	max-width: 250px;
+}
+
+.course-preview a {
+	color: #fff;
+	display: inline-block;
+	font-size: 12px;
+	opacity: 0.6;
+	margin-top: 30px;
+	text-decoration: none;
+}
+
+.course-info {
+	padding: 30px;
+	position: relative;
+	width: 100%;
+}
+
+.progress-container {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	text-align: right;
+	width: 150px;
+}
+
+.progress {
+	background-color: #ddd;
+	border-radius: 3px;
+	height: 5px;
+	width: 100%;
+}
+
+.progress::after {
+	border-radius: 3px;
+	background-color: #2A265F;
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 5px;
+	width: 66%;
+}
+
+.progress-text {
+	font-size: 10px;
+	opacity: 0.6;
+	letter-spacing: 1px;
+}
+
+.btn {
+	background-color: #2A265F;
+	border: 0;
+	border-radius: 50px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	color: #fff;
+	font-size: 16px;
+	padding: 12px 25px;
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+	letter-spacing: 1px;
+}
+
+/* SOCIAL PANEL CSS */
+.social-panel-container {
+	position: fixed;
+	right: 0;
+	bottom: 80px;
+	transform: translateX(100%);
+	transition: transform 0.4s ease-in-out;
+}
+
+.social-panel-container.visible {
+	transform: translateX(-10px);
+}
+
+.social-panel {	
+	background-color: #fff;
+	border-radius: 16px;
+	box-shadow: 0 16px 31px -17px rgba(0,31,97,0.6);
+	border: 5px solid #001F61;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Muli';
+	position: relative;
+	height: 169px;	
+	width: 370px;
+	max-width: calc(100% - 10px);
+}
+
+.social-panel button.close-btn {
+	border: 0;
+	color: #97A5CE;
+	cursor: pointer;
+	font-size: 20px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+
+.social-panel button.close-btn:focus {
+	outline: none;
+}
+
+.social-panel p {
+	background-color: #001F61;
+	border-radius: 0 0 10px 10px;
+	color: #fff;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 2px 17px 6px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin: 0;
+	transform: translateX(-50%);
+	text-align: center;
+	width: 235px;
+}
+
+.social-panel p i {
+	margin: 0 5px;
+}
+
+.social-panel p a {
+	color: #FF7500;
+	text-decoration: none;
+}
+
+.social-panel h4 {
+	margin: 20px 0;
+	color: #97A5CE;	
+	font-family: 'Muli';	
+	font-size: 14px;	
+	line-height: 18px;
+	text-transform: uppercase;
+}
+
+.social-panel ul {
+	display: flex;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.social-panel ul li {
+	margin: 0 10px;
+}
+
+.social-panel ul li a {
+	border: 1px solid #DCE1F2;
+	border-radius: 50%;
+	color: #001F61;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	width: 50px;
+	text-decoration: none;
+}
+
+.social-panel ul li a:hover {
+	border-color: #FF6A00;
+	box-shadow: 0 9px 12px -9px #FF6A00;
+}
+
+.floating-btn {
+	border-radius: 26.5px;
+	background-color: #001F61;
+	border: 1px solid #001F61;
+	box-shadow: 0 16px 22px -17px #03153B;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	line-height: 20px;
+	padding: 12px 20px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 999;
+}
+
+.floating-btn:hover {
+	background-color: #ffffff;
+	color: #001F61;
+}
+
+.floating-btn:focus {
+	outline: none;
+}
+
+.floating-text {
+	background-color: #001F61;
+	border-radius: 10px 10px 0 0;
+	color: #fff;
+	font-family: 'Muli';
+	padding: 7px 15px;
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	z-index: 998;
+}
+
+.floating-text a {
+	color: #FF7500;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 480px) {
+
+	.social-panel-container.visible {
+		transform: translateX(0px);
+	}
+	
+	.floating-btn {
+		right: 10px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end of imporntant date */
+ /*footer */
+
+    
+ .footer{
+background:#000;
+padding:30px 0px;
+font-family: 'Play', sans-serif;
+text-align:center;
+}
+
+.footer .row{
+width:100%;
+margin:1% 0%;
+padding:0.6% 0%;
+color:gray;
+font-size:0.8em;
+}
+
+.footer .row a{
+text-decoration:none;
+color:gray;
+transition:0.5s;
+}
+
+.footer .row a:hover{
+color:#fff;
+}
+
+.footer .row ul{
+width:100%;
+}
+
+.footer .row ul li{
+display:inline-block;
+margin:0px 30px;
+}
+
+.footer .row a i{
+font-size:2em;
+margin:0% 1%;
+}
+
+@media (max-width:720px){
+.footer{
+text-align:left;
+padding:5%;
+}
+.footer .row ul li{
+display:block;
+margin:10px 0px;
+text-align:left;
+}
+.footer .row a i{
+margin:0% 3%;
+}
+}
+
+
+ /*End footer*/
+
+
+ ol{
+
+  text-align: justify;font-family: Arial, Helvetica, sans-serif;
+  color:#666666;
+  margin-left: 2%;
+ }
+
+
+
+ #loading {
+  display: inline-block;
+  animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+  50% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.skew-shake-x {
+  animation: skew-x-shake 1.3s infinite;
+}
+
+@keyframes skew-x-shake {
+  0% { transform: skewX(-15deg); }
+  5% { transform: skewX(15deg); }
+  10% { transform: skewX(-15deg); }
+  15% { transform: skewX(15deg); }
+  20% { transform: skewX(0deg); }
+  100% { transform: skewX(0deg); }  
+}
+
+
+.skew-shake-y {
+  animation: tilt-shaking 1.3s infinite;
+}
+
+@keyframes tilt-shaking {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(5deg); }
+  50% { transform: rotate(0eg); }
+  75% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+    </style>
+    </head>
+  <body>
+    
+ 
+  
+
+    <div class="topnav" id="myTopnav">
+      <a href="#home" class="active">Home</a>
+      <a href="pages/pastconference.html">Past Conference</a>
+      
+     
+      <a href="pages/committees.html">Committees</a>
+      
+      <a href="pages/submission.html">Registration</a>
+
+      
+      <a href="pages/keynote.html">keynote</a>
+      
+      
+      <div class="dropdown">
+       
+        <button class="dropbtn">CFP
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="pages/cfp.html">CFP</a>
+          <a href="pages/submission.html">Submission</a>
+         
+        </div>
+      </div> 
+
+
+
+
+
+
+
+      <div class="dropdown" >
+       
+        <button class="dropbtn">Program
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="pages/program.html">Programs</a>
+          <a href="pages/schedule.html">Schedule</a>
+         
+        </div>
+      </div> 
+
+
+
+
+      <a href="pages/venue.html">Venue</a>
+    
+     
+
+      <a href="pages/contact.html">Contact</a>
+
+
+
+
+
+
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    
+  </div>
+
+    <main>
+
+
+      <header class="cont-slider">
+          
+        <section class="slider">
+          
+          <article class="slide one"><span><h1 >2023 International Conference</h1>
+            <h2 >on Smart Internet of Things</h1>
+            
+
+</span></article><!--
+          --><article class="slide two"><span><h1 >2023 International Conference</h1>
+            <h2 >on Smart Internet of Things</h1>
+               </span></article><!--
+          --><article class="slide three"><span> <h1 >2023 International Conference</h1>
+            <h2 >on Smart Internet of Things</h1>
+              </span></article><!--
+          --><article class="slide four"><span><h1 >2023 International Conference</h1>
+            <h2 >on Smart Internet of Things</h1>
+              </span></article><!--
+          --><article class="slide five"><span><h1 >2023 International Conference</h1>
+            <h2 >on Smart Internet of Things</h1>
+              </span></article>
+          <article class="slide fiv"><span><h1 >2023 International Conference</h1>
+            <h2 >on Smart Internet of Things</h1>
+            </span></article>
+          
+        </section>
+    </header>
+        
+
+
+
+<br>
+
+
+<div class="firstapear" style="box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; ">
+<div class="firstapear1" style="margin-left: 1%;">
+<br><br>
+<h2 style="margin-left: 1%;font-weight: 400;font-size: 24px;line-height: 54px;color: #222222;font-family: 'Tenor Sans';text-transform: capitalize;">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<i id="loading" class="material-icons">autorenew</i>
+  Submission Link</h2><br>
+<span style="margin-left: 2%;" > <a href="pages/submission.html" target="blank" style="text-decoration: none;"><p style="color:#666;font-family: Arial, Helvetica, sans-serif;margin-left: 1%;"> Electronic Submission System</p> </a></span><br><br>
+<span style="margin-left: 1%;"><i style="color:#666;font-family: Arial, Helvetica, sans-serif;"><i class="fa fa-envelope-o skew-shake-y" aria-hidden="true">  </i> <a href="mailto:mercel.vubangsi@outlook.cm" style="color:#666;text-decoration: none;"> Email</a> </i>  </span>
+<br><br>
+
+
+
+       
+        
+
+</div>
+
+
+<div  class="firstapear2" style="margin-left: 1%;">
+
+  <h2 style="margin-left: 1%;font-weight: 400;font-size: 24px;line-height: 54px;color: #222222;font-family: 'Tenor Sans';text-transform: capitalize;">
+    <i class="fa fa-calendar-plus-o skew-shake-x" aria-hidden="true" ></i>
+  Important Dates</h2><br>
+  
+  <span style="margin-left: 2%;" ><p style="color:#666;font-family: Arial, Helvetica, sans-serif;margin-left: 1%;">
+    Submission Deadline <i style="color:red">August 5, 2023 </i></p></span><br>
+  
+    <span style="margin-left: 2%;" ><p style="color:#666;font-family: Arial, Helvetica, sans-serif;margin-left: 1%;">
+      Notification: September 14, 2023</p></span><br>
+  
+      <span style="margin-left: 2%;" ><p style="color:#666;font-family: Arial, Helvetica, sans-serif;margin-left: 1%;">
+        Camera-ready: Septmber 30, 2023</p></span><br>
+        <span style="margin-left: 2%;" ><p style="color:#666;font-family: Arial, Helvetica, sans-serif;margin-left: 1%;">
+          Conference: December 26-28, 2023</p></span><br>
+
+</div>
+
+
+
+
+
+<div class="firstapear3" style="margin-left: 1%;">
+
+
+  <h2 style="margin-left: 1%;font-weight: 400;font-size: 24px;line-height: 54px;color: #222222;font-family: 'Tenor Sans';text-transform: capitalize;">
+    <i class="fa fa-cloud-download skew-shake-y" aria-hidden="true"></i>
+    Downloads</h2><br>
+
+    <span style="" ><p style="color:#666;font-family: Arial, Helvetica, sans-serif;margin-left: 1%;">
+      
+    
+      <a href="Template.doc" download="Template.doc" style="text-decoration: none;color:#666" >
+      <p style="color:#666;font-family: Arial, Helvetica, sans-serif;margin-left: 1%;"> Format Template </p>
+      </a>
+    
+    </p></span><br>
+
+
+
+    <span style="" ><p style="color:#666;font-family: Arial, Helvetica, sans-serif;margin-left: 1%;">
+      
+    
+      <a href="Copyright and Consent Form.pdf" download="Copyright and Consent Form.pdf" style="text-decoration: none;color:#666" >
+      <p style="color:#666;font-family: Arial, Helvetica, sans-serif;margin-left: 1%;">  Copyright and Consent Form</p>
+      </a>
+    
+    </p></span><br>
+
+
+   
+    
+
+
+
+    <span style="margin-left: 2%;" ><p style="color:#666;font-family: Arial, Helvetica, sans-serif;margin-left: 1%;">
+      
+    
+      <a href="Registration Form .docx" download="Registration Form .docx" style="text-decoration: none;color:#666" >
+      <p style="color:#666;font-family: Arial, Helvetica, sans-serif;margin-left: 1%;"> Registration Form </p>
+      </a>
+    
+    </p></span><br>
+
+
+
+
+
+
+    <span style="" ><p style="color:#666;font-family: Arial, Helvetica, sans-serif;margin-left: 1%;">
+      
+    
+      <a href="Registration Guideline.PDF" download="Registration Guideline.PDF" style="text-decoration: none;color:#666" >
+      <p style="color:#666;font-family: Arial, Helvetica, sans-serif;margin-left: 1%;"> Registration Guideline </p>
+      </a>
+    
+    </p></span><br>
+
+</div>
+
+</div>
+
+
+
+<br>
+
+      <div class="content">
+
+        <h2 style=" font-weight: 400;text-align: center;font-size: 34px;line-height: 54px;color: #222222;font-family: 'Tenor Sans';text-transform: capitalize;">Welcome to SIoT 2023</h2>
+        <div class="section" >
+
+          
+          <div class="sesion1" >
+
+            
+            
+            
+            <!--background-color: rgba(252, 237, 234, 0.9); -->
+            
+           
+
+            <br> 
+            <p class="shifted" style="text-align: justify;font-family: Arial, Helvetica, sans-serif;">
+              Join us at this prestigious event that unites global experts, researchers, and industry professionals to explore IoT advancements and innovations. Collaborate, exchange knowledge, and engage in thought-provoking discussions on the transformative power of IoT. From smart cities to healthcare and beyond, our conference covers diverse topics shaping the IoT future. Keynote speakers and panelists will share insights on trends and prospects, offering valuable perspectives on interconnected devices, data analytics, and security. Network with industry leaders, establish collaborations, and forge lasting relationships. Be an active participant in shaping the future of the Smart Internet of Things. Explore, unravel, and embrace IoT's transformative potential with us.
+            </p><br>
+
+          <p class="shifted" style="text-align: justify;font-family: Arial, Helvetica, sans-serif;">
+
+            Manuscripts must meet the high quality standards that have been established for SIoT 2023, reporting original, significant results of interest to mechatronics, IoT and industrial informatics. Double blind review by external referees (where the reviewers do not know the identity of the authors, and the authors do not know the identity of the reviewers) is required for acceptance of manuscripts. All manuscripts are screened by SIoT 2023 editors before they are sent out for external review. Editors may decline a manuscript without external review if they judge the manuscript to be clearly unsuitable for the conference (e.g. out of scope, fundamental flaws, duplicative, incremental, poor quality of English, excessively wordy). Note that a paper is considered "incremental" if it does not convincingly add new and important results to the field.
+            Resubmissions of previously rejected manuscripts require a cover letter with a detailed response to the referee and editor comments. If the new manuscript does not address the reviewer and editor comments, it may be rejected without peer review.
+            <ol><br> 
+              <li>SIoT's policy is to obtain at least two reviews per paper; however, papers first undergo an initial quality/relevance assessment by the editor upon receipt. At this stage, submissions are also screened for plagiarism using Similarity Check.  </li>
+            <br>  <li>Editor selects suitable reviewers and sends your manuscript to them.</li>
+            <br>  <li>Reviewers are allowed time to complete their review and submit comments to the editor.</li>
+            <br>  <li> Reviewers provide comments aimed to help create a better manuscript. Reviewers will recommend that:
+                The manuscript is acceptable for publication.
+                The manuscript requires further revisions.
+                The manuscript is not acceptable for publication.</li>
+                <br>  <li>Editor makes a publication decision based on the reviews and sends out a decision letter.</li>
+                <br>  <li>If your manuscript needs modifications:
+                You may resubmit after revisions have been made.
+                Editor decides whether to accept revised manuscript or refer it back to reviewers for further comment.
+                Editor makes final decision.</li>
+                <br>   <li>Once accepted, your manuscript will begin the registration and production process.</li>
+             
+
+    
+            </ol>
+            </p>
+             
+            </div>
+
+         
+              <br>
+              <br>
+            
+
+            </div></div></div>
+             
+
+            <div class="box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; ">
+
+              <h2 style=" font-weight: 400;text-align: center;font-size: 34px;line-height: 54px;color: #222222;font-family: 'Tenor Sans';text-transform: capitalize;">About SIoT 2023</h2>
+                
+              <p class="shifted" style="text-align: justify;font-family: Arial, Helvetica, sans-serif;margin-left: 1%;">
+
+                2023 International Conference on Mechatronics, IoT and Industrial Informatics (SIoT 2023) will take place in University Of Kyrenia during <i style="font-weight: bold;"> December 26-28, 2023.</i><br>
+                
+                We are honored to welcome experts, researchers, professionals, innovators from academia and industrial circle to join the conference.
+                
+                <br>SIoT 2023 aims to provide a high-quality forum for communications of research achievements, ideas and experience of application<br>
+                 in all fields of mechatronics, IoT and industrial informatics. Participants can develop ideas,
+                  catch research directions,<br> and accelerate the theoretical research, technology development, application and innovation in 
+                  certain subjects.<br>
+
+                As your safety is our top priority and concern, the Organizing Committee has added the Online/Video presentation<br> for 
+                presenters in addition to the oral presentation and poster presentation. <br>
+             
+                
+                We are looking forward to seeing you in University Of Kyrenia for this exciting academic event!
+                </p>
+                <br><br>
+              <img style="width: 100%;height: auto;" src="https://kyrenia.edu.tr/wp-content/uploads/2021/05/24/gu-panorama-scaled-1.jpg">
+
+<br>
+
+            </div>
+
+
+
+
+            <br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="courses-container">
+	<div class="course">
+		<div class="course-preview">
+			<h6></h6>
+			<h2>Important Dates</h2>
+			<a href="pages/venue.html">December 26-28, 2023 | University Of Kyrenia <i class="fas fa-chevron-right"></i></a>
+		</div>
+		<div class="course-info">
+			<div class="progress-container">
+				<div class="progresse"></div>
+				<span class="progress-text">
+					
+				</span>
+			</div>
+			<h5>Conference Date:  December 26-28, 2023</h5>
+			<h4>Submission</h4> Deadline: August 5, 2023
+			<h4>Notification:</h4> August 5, 2023
+			
+			</h4>
+			<h4>Camera Ready:</h4> September 30, 2023
+		
+		</div>
+	</div>
+</div>
+            <!-- 
+            <h2 style="text-align: center;"> What's New</h2>
+            <div>
+            <img src="images/news.jpeg" style="width:100%; ">  
+            </div>
+        
+-->  
+
+
+
+
+
+
+    
+    </main>
+ <!--FONT AWESOME-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--GOOGLE FONTS-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
+</head>
+<body>
+<footer>
+<div class="footer">
+<div class="row">
+<a href="#"><i class="fa fa-facebook"></i></a>
+<a href="#"><i class="fa fa-instagram"></i></a>
+<a href="#"><i class="fa fa-youtube"></i></a>
+<a href="#"><i class="fa fa-twitter"></i></a>
+</div>
+
+<div class="row">
+<ul>
+<li><a href="#">Contact us</a></li>
+<li><a href="#">Our Services</a></li>
+<li><a href="#">Privacy Policy</a></li>
+<li><a href="#">Terms & Conditions</a></li>
+<li><a href="#">Projects</a></li>
+</ul>
+</div>
+
+<div class="row">
+  © 2023 NEU AIIoT Conference Web App. All rights reserved.
+</div>
+</div>
+</footer>
+
+
+   
+    
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+  </body>
+</html>
